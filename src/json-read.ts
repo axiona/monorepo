@@ -1,11 +1,12 @@
 import * as fs from 'fs';
+import Sort from './object/sort';
 
 
 export default function JsonRead(path : string) {
 
   try {
 
-    return JSON.parse(fs.readFileSync(path).toString());
+    return Sort(JSON.parse(fs.readFileSync(path).toString()));
 
   } catch (e) {
 

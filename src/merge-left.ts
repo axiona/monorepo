@@ -1,6 +1,7 @@
 import DeepMerge from 'deepmerge';
 import UniqueParameters from '@alirya/array/unique-parameters';
 import Json from './json/json';
+import Sort from './object/sort';
 
 /**
  * merge package to main, replacing all main
@@ -12,7 +13,7 @@ export default function MergeLeft(main : object, packages : Json[]) : Json[] {
 
   for(const match of packages) {
 
-    match.object = (DeepMerge(main, match.object, {
+    match.object = Sort(DeepMerge(main, match.object, {
       arrayMerge:(target, source)=>UniqueParameters([...target, ...source])
     }));
   }
