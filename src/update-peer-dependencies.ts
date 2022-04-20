@@ -1,6 +1,5 @@
 import Dir from './dir/dir';
 import PackagesPaths from './json/array/files';
-import File from './file/file';
 import Json from './json/json';
 
 export default function UpdatePeerDependencies(

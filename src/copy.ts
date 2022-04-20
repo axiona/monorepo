@@ -1,5 +1,4 @@
 import fs from 'fs';
-import Dir from './dir/dir';
 import File from './file/file';
 
 export default function Copy(source : string, destinations : File[]) {
