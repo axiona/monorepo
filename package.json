@@ -80,9 +80,9 @@
   },
   "private": true,
   "license": "unlicensed",
-  "homepage": "https://github.com/aksarakan/helper",
+  "homepage": "https://github.com/aksarakan/monorepo",
   "repository": {
     "type": "git",
-    "url": "https://github.com/aksarakan/helper"
+    "url": "https://github.com/aksarakan/monorepo"
   }
 }
