@@ -79,7 +79,7 @@
     "name": "Andika Candra"
   },
   "private": true,
-  "license": "unlicensed",
+  "license": "Apache-2.0",
   "homepage": "https://github.com/aksarakan/monorepo",
   "repository": {
     "type": "git",
