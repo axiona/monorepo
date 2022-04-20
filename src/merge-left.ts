@@ -1,6 +1,6 @@
 import DeepMerge from 'deepmerge';
-import File from './file/file';
 import UniqueParameters from '@alirya/array/unique-parameters';
+import Json from './json/json';
 
 /**
  * merge package to main, replacing all main
@@ -8,11 +8,11 @@ import UniqueParameters from '@alirya/array/unique-parameters';
  * @param main
  * @param packages
  */
-export default function MergeLeft(main : object, packages : File[]) : File[] {
+export default function MergeLeft(main : object, packages : Json[]) : Json[] {
 
   for(const match of packages) {
 
-    match.data = (DeepMerge(main, match.data, {
+    match.object = (DeepMerge(main, match.object, {
       arrayMerge:(target, source)=>UniqueParameters([...target, ...source])
     }));
   }
