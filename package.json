@@ -67,7 +67,7 @@
     "_compile-asset-watch": "cpx \"./{package.json,package-lock.json,LICENSE,README.md,.npmignore}\" ./dist/ --verbose --watch",
     "git-tag": "package-version-git-tag",
     "git-tag-push": "package-version-git-tag --push",
-    "release": "npm publish ./dist",
+    "release": "npm publish --access=public ./dist",
     "prerelease": "npm-run-all _release-remove-compile-cache compile",
     "prepublishOnly": "cd ../dist",
     "_release-remove-compile-cache": "rimraf ./dist/compiler-cache.json"
