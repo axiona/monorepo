@@ -26,9 +26,6 @@
       "es6"
     ]
   },
-  "include": [
-    "spec/**/*"
-  ],
   "exclude": [
     "node_modules",
     "dist",
@@ -38,5 +35,8 @@
     "dist-spec",
     "dist-spec/**/*.d.ts",
     "**/dist-spec/**/*.d.ts"
+  ],
+  "include": [
+    "spec/**/*"
   ]
 }
