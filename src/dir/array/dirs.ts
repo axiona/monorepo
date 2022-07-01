@@ -6,8 +6,6 @@ export default async function Dirs (root : string, globPaths : string[]) : Promi
 
     const directories : string[]= [];
 
-    //let folders = JsonRead(lernaJsonPath).packages;
-
     for(const folder of globPaths) {
 
         const path = root + `/${folder}`;

@@ -1,4 +1,4 @@
-import SortKeyRecursiveParameters from '@alirya/object/sort-key-recursive-parameters';
+import {SortKeyRecursiveParameters} from '@alirya/object/sort-key-recursive';
 
 const scores = new Map<string, number>([...[
     'name',
