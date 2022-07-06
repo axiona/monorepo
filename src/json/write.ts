@@ -1,5 +1,5 @@
-import JsonWrite from '../json-write';
-import Json from './json';
+import JsonWrite from '../json-write.js';
+import Json from './json.js';
 
 export default function Write(path : Json) : Json {
 

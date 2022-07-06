@@ -1,6 +1,6 @@
-import JsonRead from '../../json-read';
-import Dir from '../dir';
-import {promise} from 'glob-promise';
+import JsonRead from '../../json-read.js';
+import Dir from '../dir.js';
+import {promise} from 'glob-promise.js';
 
 export default async function Dirs (root : string, globPaths : string[]) : Promise<Dir[]> {
 

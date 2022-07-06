@@ -1,7 +1,7 @@
-import Dir from './dir/dir';
-import PackagesPaths from './json/array/files';
-import JsonRead from './json-read';
-import Json from './json/json';
+import Dir from './dir/dir.js';
+import PackagesPaths from './json/array/files.js';
+import JsonRead from './json-read.js';
+import Json from './json/json.js';
 
 export default function UpdateGlobalDependencies(
     packageJsonPath : string, peers: Dir[],

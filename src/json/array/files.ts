@@ -1,6 +1,6 @@
-import Json from '../json';
-import JsonRead from '../../json-read';
-import Dir from '../../dir/dir';
+import Json from '../json.js';
+import JsonRead from '../../json-read.js';
+import Dir from '../../dir/dir.js';
 
 export default function Files (file : string, paths : Dir[]) : Json[] {
 
