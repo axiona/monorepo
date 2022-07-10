@@ -1,5 +1,5 @@
 import DeepMerge from 'deepmerge';
-import UniqueParameters from '@alirya/array/unique-parameters';
+import {UniqueParameters} from '@alirya/array/unique';
 import Json from './json/json';
 import Sort from './object/sort';
 
