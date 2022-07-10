@@ -1,6 +1,6 @@
-import JsonRead from '../../json-read';
 import Dir from '../dir';
 import {promise} from 'glob-promise';
+import PackageJson from '../package-json';
 
 export default async function Dirs (root : string, globPaths : string[]) : Promise<Dir[]> {
 
@@ -13,18 +13,7 @@ export default async function Dirs (root : string, globPaths : string[]) : Promi
         directories.push(...matches);
     }
 
-    return directories.map(dir=>{
-
-        const data = JsonRead(dir + '/package.json');
-        const name = data.name;
-        const version = data.version;
-
-        return  {
-            name,
-            version,
-            dir: dir,
-        };
-    });
+    return directories.map(PackageJson);
 
 }
 
