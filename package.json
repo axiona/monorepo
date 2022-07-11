@@ -1,6 +1,6 @@
 {
   "name": "@alirya/monorepo",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Typescript class",
   "publishConfig": {
     "directory": "dist"
@@ -16,9 +16,9 @@
   },
   "dependencies": {
     "tslib": "^2.3.1",
-    "@alirya/array": "^0.27.0",
-    "@alirya/function": "^0.17.0",
-    "@alirya/object": "^0.38.0",
+    "@alirya/array": "^0.27.1",
+    "@alirya/function": "^0.17.1",
+    "@alirya/object": "^0.38.1",
     "deepmerge": "^4.2.2",
     "glob-promise": "^4.2.2",
     "ts-toolbelt": "^9.6.0"
