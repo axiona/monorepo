@@ -1,7 +1,7 @@
 import DeepMerge from 'deepmerge';
-import {UniqueParameters} from '@alirya/array/unique';
-import Json from './json/json';
-import Sort from './object/sort';
+import {UniqueParameters} from '@alirya/array/unique.js';
+import Json from './json/json.js';
+import Sort from './object/sort.js';
 
 
 /**

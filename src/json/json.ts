@@ -1,4 +1,4 @@
-import File from '../file/file';
+import File from '../file/file.js';
 
 export default interface Json extends Omit<File, 'data'> {
 

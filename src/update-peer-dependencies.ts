@@ -1,6 +1,6 @@
-import Dir from './dir/dir';
-import PackagesPaths from './json/array/files';
-import Json from './json/json';
+import Dir from './dir/dir.js';
+import PackagesPaths from './json/array/files.js';
+import Json from './json/json.js';
 
 export default function UpdatePeerDependencies(
     paths: Dir[],
