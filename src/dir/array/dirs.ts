@@ -1,5 +1,5 @@
 import Dir from '../dir.js';
-import {promise} from 'glob-promise.js';
+import {promise} from 'glob-promise';
 import PackageJson from '../package-json.js';
 
 export default async function Dirs (root : string, globPaths : string[]) : Promise<Dir[]> {

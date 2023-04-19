@@ -4,7 +4,7 @@ export default function Versions(paths: Json[]) : (Json & { version : string })[
 
   const result : (Json & { version : string })[] = [];
 
-  for(let path of paths) {
+  for(const path of paths) {
 
     const version = path.version;
 

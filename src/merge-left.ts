@@ -1,4 +1,4 @@
-import DeepMerge from 'deepmerge.js';
+import DeepMerge from 'deepmerge';
 import {UniqueParameters} from '@alirya/array/unique.js';
 import Json from './json/json.js';
 import Sort from './object/sort.js';

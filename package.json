@@ -18,7 +18,7 @@
     "url": "https://github.com/aksarakan/monorepo"
   },
   "dependencies": {
-    "tslib": "^2.3.1",
+    "tslib": "^2.5.0",
     "@alirya/array": "^0.27.1",
     "@alirya/function": "^0.17.1",
     "@alirya/object": "^0.38.1",
@@ -44,7 +44,11 @@
     "ts-toolbelt": "^9.6.0",
     "utility-types": "^3.10.0",
     "package-version-git-tag": "^3.0.0",
-    "cpx2": "^4.2.0"
+    "cpx2": "^4.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.51.0",
+    "eslint-plugin-require-extensions": "^0.1.2",
+    "eslint": "^8.33.0",
+    "@types/node": "^16.11.7"
   },
   "scripts": {
     "spec-run-js": "node -r esm node_modules/jasmine/bin/jasmine.js --config=./jasmine.json",
@@ -89,6 +93,10 @@
     "_compile-asset-watch": "cpx \"./{package.json,package-lock.json,LICENSE,README.md,.npmignore}\" ./dist/ --verbose --watch",
     "prepublishOnly": "cd ../dist",
     "prerelease": "npm-run-all _release-remove-compile-cache compile",
-    "installs": "npm i"
-  }
+    "installs": "npm i",
+    "lint1": "eslint .",
+    "lint1-fix": "eslint --fix .",
+    "spec-run-no-esm": "jasmine --config=./jasmine.json"
+  },
+  "type": "module"
 }
