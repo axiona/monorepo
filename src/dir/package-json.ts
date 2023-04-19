@@ -1,5 +1,5 @@
-import Dir from './dir';
-import JsonRead from '../json-read';
+import Dir from './dir.js';
+import JsonRead from '../json-read.js';
 
 export default function PackageJson(dir: string) : Dir {
 

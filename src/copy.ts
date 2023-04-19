@@ -1,5 +1,5 @@
 import {copyFile} from 'fs';
-import File from './file/file';
+import File from './file/file.js';
 
 export default function Copy(source : string, destinations : File[]) {
 

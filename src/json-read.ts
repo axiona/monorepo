@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import Sort from './object/sort';
+import Sort from './object/sort.js';
 
 
 export default function JsonRead(path : string) {

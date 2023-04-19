@@ -1,4 +1,4 @@
-import Json from './json/json';
+import Json from './json/json.js';
 
 export default function Versions(paths: Json[]) : (Json & { version : string })[] {
 

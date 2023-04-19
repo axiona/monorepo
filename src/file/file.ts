@@ -1,4 +1,4 @@
-import Dir from '../dir/dir';
+import Dir from '../dir/dir.js';
 
 export default interface File extends Dir {
 

@@ -1,4 +1,4 @@
-import File from './file';
+import File from './file.js';
 import {writeFileSync} from 'fs';
 
 export default function Write(path : File) : File {
