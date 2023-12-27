@@ -1,5 +1,5 @@
 import DeepMerge from 'deepmerge';
-import {UniqueParameters} from '@alirya/array/unique.js';
+import {UniqueParameters} from '@axiona/array/unique.js';
 import Json from './json/json.js';
 import Sort from './object/sort.js';
 
