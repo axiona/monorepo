@@ -1,6 +1,6 @@
 {
   "name": "@axiona/monorepo",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "Typescript class",
   "publishConfig": {
     "directory": "dist"
@@ -19,9 +19,9 @@
   },
   "dependencies": {
     "tslib": "^2.5.0",
-    "@axiona/array": "^0.27.1",
-    "@axiona/function": "^0.17.1",
-    "@axiona/object": "^0.38.1",
+    "@axiona/array": "^0.28.0",
+    "@axiona/function": "^0.18.0",
+    "@axiona/object": "^0.39.0",
     "deepmerge": "^4.2.2",
     "glob-promise": "^4.2.2",
     "ts-toolbelt": "^9.6.0"
