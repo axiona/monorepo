@@ -1,5 +1,5 @@
 {
-  "name": "@alirya/monorepo",
+  "name": "@axiona/monorepo",
   "version": "0.3.2",
   "description": "Typescript class",
   "publishConfig": {
@@ -19,9 +19,9 @@
   },
   "dependencies": {
     "tslib": "^2.5.0",
-    "@alirya/array": "^0.27.1",
-    "@alirya/function": "^0.17.1",
-    "@alirya/object": "^0.38.1",
+    "@axiona/array": "^0.27.1",
+    "@axiona/function": "^0.17.1",
+    "@axiona/object": "^0.38.1",
     "deepmerge": "^4.2.2",
     "glob-promise": "^4.2.2",
     "ts-toolbelt": "^9.6.0"
